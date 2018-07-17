@@ -1,0 +1,2 @@
+# exercism
+Exercicios de python

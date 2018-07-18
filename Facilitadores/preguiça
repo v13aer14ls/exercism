@@ -1,0 +1,22 @@
+#Como não perder minha juventude fazendo pushs no GIT
+
+#Passo 1, inserir as linhas abaixo no meu arquivo .configure ou .bash_configure
+
+gitpush() {
+    git add .
+    git commit -m "$*"
+    git push
+}
+alias gp=gitpush
+
+#Passo 2 , fazer uma troca de chaves com meu perfil do GIT usando o comando "ssh-keygen -t rsa" , dai sai apertando enter e joga a chave publica la no perfil web.
+
+#Passo 3 , inserir esse comando aqui "git push --set-upstream origin master"
+
+#Passo 4 , setar pra comunicar com o repositorio via ssh " git remote set-url origin git+ssh://git@github.com/v13aer14ls/exercism.git"
+
+#Passo 5 , isso aqui o terminal que mandou colocar "git config --global push.default simple"
+
+#Passo 6 , não esquecer de rodar essa parada " ~/source .configure "
+
+#Passo 7 , usar "gp >mensagem de comit blablabla< " para empurrar as coisas no repositorio. 

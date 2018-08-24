@@ -1,0 +1,9 @@
+mquery -n pncell_pntpx08 -w "itsm_incident_id: == '000000017727157'" -s "NumARS,event_handle,pn_alarm_id,mc_host,date,date_reception,severity,status" -f CSV
+
+msetmsg -n pncell_pntpx05 -u 28625686 -O -----> reabre o evento na celula
+
+msetmsg -n pncell_pntpx08 -u 28625686 -C -----> mata o evento na celula
+
+
+
+28625686

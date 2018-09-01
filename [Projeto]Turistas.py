@@ -1,4 +1,6 @@
-#!/bin/python2x/env
+#!/bin/python3x/env
+# Mantainer = Guilherme Amaral
+# Script do Projeto "Boredless Tourist " do codeacademyPRO
 destinations = ["Paris, France","Shanghai, China", "Los Angeles, USA", "São Paulo, Brazil", "Cairo, Egypt"]
 test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
 

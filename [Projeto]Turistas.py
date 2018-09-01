@@ -16,4 +16,4 @@ print(test_destination_index)
 
 attractions = []
 for destination in destinations:
-    attractions,append([])
+    attractions,append([]),

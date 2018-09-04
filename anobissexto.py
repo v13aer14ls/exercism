@@ -1,5 +1,5 @@
 #mantainer = Guilherme
-# Pyhton 3.x
+# Python 3.x
 
 def bissexto(ano):
 	return (ano % 4 == 0 and (ano % 400  == 0 or ano % 100 !=0))
